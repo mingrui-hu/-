@@ -1,0 +1,10 @@
+-   PGM
+    -   Representation - declare  a PGM
+    -   Inference - answer queries on a declared PGM
+    -   Learning
+-   Sensitivity Analysis
+    -   Parameter Importance
+        -   Note the difference btw **feature importance** and **(hyper) parameter importance**
+        -   (the) 
+        -   parameter (more) sensitive/important --> parameter tuning in training procedure: need to **finetune** about
+        -   feature important --> results explanation: contribute more to the final prediction result
