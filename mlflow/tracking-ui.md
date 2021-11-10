@@ -1,5 +1,6 @@
 - view tracking ui:
   - `mlflow ui`
+  - if needs to **view from other machines**, run `mlflow ui --host 0.0.0.0`
 - One Experiment, 2 run
   - running the same script twice with output file of identical name, can also be recorded.  
 
