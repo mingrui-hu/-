@@ -12,7 +12,7 @@ https://github.com/interpretml/interpret
     -   sensitive to outliers if the assumption 
 
         >   features in C are not correlated with the features in S
-
+    
         is violated.
 
 -    PDP for regression : def

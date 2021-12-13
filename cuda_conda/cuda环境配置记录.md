@@ -1,3 +1,7 @@
+
+
+
+
 ## ubuntu 20.04 + cuda 11.3 + cuDNN 8.2.1 + miniconda
 
 - ubuntu 20.04 
