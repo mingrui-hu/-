@@ -21,3 +21,6 @@ https://androidkt.com/pads-and-pack-variable-length-sequences-in-pytorch/
 -   `sort_values` is differentiable 
 -   `sort_indices` is not (b.c. inner `torch.argsort()`)
 
+#### inplace gradient ReluBackward
+
+`nn.ReLu(inplace=False)`

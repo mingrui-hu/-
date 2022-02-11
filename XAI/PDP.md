@@ -2,6 +2,10 @@ https://christophm.github.io/interpretable-ml-book/pdp.html
 
 https://github.com/interpretml/interpret
 
+-   from ch3.2 
+
+    -   >   Partial dependence plots are curves that show a feature and the averaged outcome.
+
 -   Global Model-Agnostic Model
 
     >   A partial dependence plot can show whether **the relationship between the target and a feature** is linear, monotonic or more complex.
@@ -12,7 +16,7 @@ https://github.com/interpretml/interpret
     -   sensitive to outliers if the assumption 
 
         >   features in C are not correlated with the features in S
-    
+        
         is violated.
 
 -    PDP for regression : def
