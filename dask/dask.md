@@ -30,3 +30,6 @@ with dask.config.set(pool=ThreadPoolExecutor(4)):
 
 https://stackoverflow.com/questions/39721800/convert-pandas-dataframe-to-dask-dataframe
 
+## beginner's guide on distributed cluster
+
+https://blog.dask.org/2020/07/30/beginners-config

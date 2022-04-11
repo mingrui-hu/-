@@ -1,0 +1,3 @@
+- [Datasets with multimodal explanations](https://xaitk.org/capabilities/ucb-multimodal-x)
+- [The Counterfactual Visual Question Answering (VQA) Dataset](https://xaitk.org/capabilities/SRI-counterfactual)
+- [The Consistent Visual Question Answering (ConVQA) Dataset](https://xaitk.org/capabilities/SRI-convqa)

@@ -1,0 +1,30 @@
+- `search & substitute `schemes
+  - search for a neighbor with labels of interest
+  - chose an entire variable time series from the flipped neighbor
+  - substitute $x_t$'s variable m $x_t^m$with $x_{neighbor}^m$
+  - similar to shap&lime
+- The problem of finding a counterfactual explanation $x_{dist}$ and the substitution diagonal matrix A, that maximize $f_c(x')$ is analogous to the **hitting set problem**
+- **Greedy search +a faster optimization** to select counterfactual explanations from training set
+- Random Start Hill-Climbing searching
+  - comment:类似step-wise feature selection，模拟登山/退火算法 
+- 评价的classifiers还是tabular-based classifiers
+  - LR
+  - Random Forest
+  - Auto-Encoder
+- 评价指标：
+  - 定性评价： 取了一个样本进行human interpretation
+  - Comprehensibility： 定义为number of variables in the explanation
+  - ==（可借鉴）Faithfulness: 使用简单LR作为ground truth classifier==, 因为他们的决策过程透明。然后与counterfactual explanation进行对比 -> 但还是存在问题：==如何将这种ground truth classifier扩展到时序？一种想法: 底层feature-wise 独立extractor叠加一层与feature数量相等的LR==
+  - Robustness: **Lipschitz constant**
+    - intuition: similar samples should have similar explanations
+    - customer defined: 1. sample similarity 2. explanation similarity
+  - Generalization: similar intuition to robustness
+    - focus on **misclassified test instance**
+    - ==comment: may be used to detect data quality and find mislabelled ground truth?==
+  
+- 问题： 
+  - 每次都会把一整个变量的序列全部替换掉
+  - 忽略了序列的变化趋势, 忽略了多变量间的交互
+  - 只考虑training-set， 本质上没有回答what-if 的问题， 或者说只能回答在训练集范围内的what-if
+  - highly limited by training set-size
+  - 评价指标不很具备说服力

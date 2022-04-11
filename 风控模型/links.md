@@ -1,0 +1,1 @@
+[collections of credit risk modelling papers](https://github.com/mourarthur/awesome-credit-modeling)

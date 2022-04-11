@@ -1,0 +1,21 @@
+
+
+
+
+# Dynamic Bipartite Graph for abuse detection in e-commerce
+
+- <img src="2021-stanford-graph-workshop.assets/image-20220307152825053.png" alt="image-20220307152825053" style="zoom:80%;" />
+- <img src="2021-stanford-graph-workshop.assets/image-20220307152855876.png" alt="image-20220307152855876" style="zoom:67%;" />
+- <img src="2021-stanford-graph-workshop.assets/image-20220307152749017.png" alt="image-20220307152749017" style="zoom:80%;" />
+
+## Dynamic Architecture: 3 phases
+
+- ![image-20220307152944585](2021-stanford-graph-workshop.assets/image-20220307152944585-16466381861883.png)
+
+### RNN phase
+
+![image-20220307153141320](2021-stanford-graph-workshop.assets/image-20220307153141320-16466383033214.png)
+
+
+
+### 2. GNN 

@@ -1,0 +1,14 @@
+### Open Research Questions
+
+- Nice summary !
+- 1. Unify counterfactual explanations with traditional “explainable AI.”  
+- 2. Provide counterfactual explanations as **discrete and sequential steps of actions**.  
+  3. Counterfactual explanations as an **interactive service** to the applicants.  
+  4. Ability of counterfactual explanations to work with **incomplete—or missing—causal graphs**.  
+  5. The ability of counterfactual explanations to work with **missing feature values**  
+  6. Scalability and throughput of counterfactual explanations generation.  
+  7. Counterfactual explanations should account for bias in the classifier  
+  8. Generate robust counterfactual explanations.  
+  9. \10. Counterfactual explanations should capture applicant’s preferences  
+  10. \11. Counterfactual explanations should also inform the applicants about what must not change  
+  11. 12. Handling of categorical features in counterfactual explanations  

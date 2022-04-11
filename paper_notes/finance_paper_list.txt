@@ -1,0 +1,4 @@
+Financial time series forecasting with multi-modality graph neural network 
+Domain Adaptive Multi-Modality Neural Attention Network for Financial Forecasting
+农信二期智能合规related
+ Exploring corporate governance research in accounting journals through latent semantic and topic analyses
