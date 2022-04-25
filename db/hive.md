@@ -66,7 +66,6 @@ https://cwiki.apache.org/confluence/display/hive/languagemanual+types
 
 -   普通orc table只能全表导入
 -   要支持单条插入必须是事物表
--   
 -   https://sqlandhadoop.com/hive-transactional-tables-everything-you-must-know-part-1/#2_Table_must_have_CLUSTERED_BY_column
 
 ## hive 建表
@@ -100,3 +99,7 @@ https://cwiki.apache.org/confluence/display/hive/languagemanual+types
 #### `REGEX_REPLACE`
 
 -   https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions130.htm
+
+## 导出及导入csv SQL clause
+
+- 见 sql_scratches.md

@@ -31,7 +31,7 @@
 
   - 查看推荐的版本`ubuntu-drivers devices`
 
-  ![image-20211110112804681](D:\笔记\cuda\cuda环境配置记录.assets\image-20211110112804681-16365148862211.png)
+  ![image-20211110112804681](D:\zhejianglabV2\personal_space\笔记\cuda\cuda环境配置记录.assets\image-20211110112804681-16365148862211.png)
 
   - 这种方式不需要按照nvidia 的 installation guide去手动禁用原生gpu驱动
 
