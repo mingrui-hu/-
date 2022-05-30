@@ -1,3 +1,5 @@
+
+
 ## 2020 from https://developer.aliyun.com/article/780137#slide-4
 
 - 例如在交互查询方面，有图数据库Neo4j、ArangoDB和OrientDB等、也有分布式系统和服务JanusGraph、Amazon Neptune和Azure Cosmos DB等；
