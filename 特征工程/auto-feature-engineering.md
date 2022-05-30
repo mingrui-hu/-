@@ -87,6 +87,20 @@ feature-selector
   - feature-set-generation: beam search of tree space expanding
   - feature-set-evaluation: field-wise LR + successive halving features(successive mini-batch GD)
 - **Infrastructure**
+- 20220519
+  - $F$: the original feature set of $D_{tr}$
+  - $A(F)$ : the set of all original features + possible cross features generated from $F$
+  - $d$: the size of the original feature  set $F$ == the highest order of cross features
+  - the size of $A(F)$
+    - the following equations consider only **1 possible operator**, i.e. cross product:
+      - all possible feature combinations 
+        - $card(A(F)) = \sum_{k=1}^d C(d, k) = 2^d - 1$
+
+      - the number of all possible feature set（if each feature combination above is represented by 1 bit, choose whether to put that combiantion into current feature set） 
+        - $2^{2^d - 1}$
+
+  - 
+
 
 ## SAFE
 
